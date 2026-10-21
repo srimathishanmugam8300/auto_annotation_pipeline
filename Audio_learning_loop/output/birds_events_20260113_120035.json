@@ -1,0 +1,83 @@
+{
+  "input_file": "birds.wav",
+  "sound_events": [
+    {
+      "label": "Bird",
+      "start": 0.0,
+      "end": 0.96,
+      "confidence": 0.59
+    },
+    {
+      "label": "Noise",
+      "start": 0.96,
+      "end": 1.92,
+      "confidence": 0.71
+    },
+    {
+      "label": "Bird",
+      "start": 1.92,
+      "end": 2.88,
+      "confidence": 0.63
+    },
+    {
+      "label": "Noise",
+      "start": 2.88,
+      "end": 3.84,
+      "confidence": 0.38
+    },
+    {
+      "label": "Bird",
+      "start": 4.8,
+      "end": 6.72,
+      "confidence": 0.92
+    },
+    {
+      "label": "Noise",
+      "start": 6.72,
+      "end": 7.68,
+      "confidence": 0.44
+    },
+    {
+      "label": "Children playing",
+      "start": 7.68,
+      "end": 8.64,
+      "confidence": 0.57
+    },
+    {
+      "label": "Roar",
+      "start": 8.64,
+      "end": 9.6,
+      "confidence": 0.94
+    },
+    {
+      "label": "Bird",
+      "start": 9.6,
+      "end": 10.56,
+      "confidence": 0.84
+    },
+    {
+      "label": "Roar",
+      "start": 10.56,
+      "end": 12.48,
+      "confidence": 0.96
+    },
+    {
+      "label": "Bird",
+      "start": 12.48,
+      "end": 14.399999999999999,
+      "confidence": 0.89
+    },
+    {
+      "label": "Noise",
+      "start": 14.4,
+      "end": 15.36,
+      "confidence": 0.59
+    },
+    {
+      "label": "Bird",
+      "start": 15.36,
+      "end": 16.32,
+      "confidence": 0.59
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+============================================================
+DATASET ORGANIZATION REPORT
+============================================================
+
+Total Images: 413
+Number of Classes: 7
+
+CLASS DISTRIBUTION:
+----------------------------------------
+  eight               :    84 ( 20.3%)
+  four                :    37 (  9.0%)
+  nine                :    47 ( 11.4%)
+  seven               :    56 ( 13.6%)
+  six                 :    73 ( 17.7%)
+  three               :    65 ( 15.7%)
+  two                 :    51 ( 12.3%)
+
+
+SPLIT DISTRIBUTION:
+----------------------------------------
+
+TRAIN:
+  eight               :    58
+  four                :    25
+  nine                :    32
+  seven               :    39
+  six                 :    51
+  three               :    45
+  two                 :    35
+  TOTAL               :   285
+
+VAL:
+  eight               :    12
+  four                :     5
+  nine                :     7
+  seven               :     8
+  six                 :    10
+  three               :     9
+  two                 :     7
+  TOTAL               :    58
+
+TEST:
+  eight               :    14
+  four                :     7
+  nine                :     8
+  seven               :     9
+  six                 :    12
+  three               :    11
+  two                 :     9
+  TOTAL               :    70
+
+============================================================
+Dataset ready for training!
+============================================================

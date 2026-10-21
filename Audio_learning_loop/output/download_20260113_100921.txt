@@ -1,0 +1,1 @@
+Hey there! This is a quick demo of our audio intelligence system. We take normal audio and automatically understand who is speaking, what they are saying, and what sounds are happening in the background. It's fast, smart, and useful for many real-world applications. Have a great day!

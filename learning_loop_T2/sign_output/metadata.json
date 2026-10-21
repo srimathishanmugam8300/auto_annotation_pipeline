@@ -1,0 +1,22 @@
+{
+  "total_images": 413,
+  "n_classes": 7,
+  "class_counts": {
+    "class_5": 56,
+    "class_4": 73,
+    "class_6": 84,
+    "class_1": 51,
+    "class_2": 65,
+    "class_3": 37,
+    "class_7": 47
+  },
+  "class_names": [
+    "class_1",
+    "class_2",
+    "class_3",
+    "class_4",
+    "class_5",
+    "class_6",
+    "class_7"
+  ]
+}

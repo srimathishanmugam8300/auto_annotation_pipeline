@@ -1,0 +1,19 @@
+{
+  "input_file": "dog.wav",
+  "audio_duration": 1.62,
+  "dominant_sounds": [
+    {
+      "label": "Children playing",
+      "total_duration": 1.62,
+      "coverage": 100.0
+    }
+  ],
+  "sound_events": [
+    {
+      "label": "Children playing",
+      "start": 0.0,
+      "end": 1.62,
+      "confidence": 1.0
+    }
+  ]
+}

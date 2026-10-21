@@ -1,0 +1,238 @@
+:root {
+  --bg: #f4ecff;
+  --surface: #ffffff;
+  --surface-soft: #f8f2ff;
+  --text: #101010;
+  --muted: #5b4d73;
+  --primary: #6f33de;
+  --primary-deep: #43168f;
+  --line: #decfff;
+  --shadow: 0 18px 42px rgba(17, 6, 39, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 15% 8%, rgba(126, 71, 228, 0.3), transparent 34%),
+    radial-gradient(circle at 84% 14%, rgba(69, 24, 151, 0.26), transparent 30%),
+    linear-gradient(180deg, #efe4ff 0%, #ffffff 50%, #f6efff 100%);
+  padding: 32px 22px 70px;
+  overflow-x: hidden;
+}
+
+.bg-orb {
+  position: fixed;
+  border-radius: 999px;
+  pointer-events: none;
+  filter: blur(28px);
+  z-index: 0;
+  will-change: transform;
+}
+
+.orb-a {
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  right: -80px;
+  background: rgba(112, 52, 226, 0.58);
+}
+
+.orb-b {
+  width: 360px;
+  height: 360px;
+  bottom: -130px;
+  left: -110px;
+  background: rgba(53, 22, 116, 0.62);
+}
+
+.page-header,
+.events {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header {
+  max-width: 1220px;
+  margin: 0 auto 26px;
+  padding: 24px 30px;
+  border-radius: 24px;
+  border: 1px solid rgba(125, 75, 220, 0.3);
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.92), rgba(244, 232, 255, 0.86));
+  box-shadow: 0 20px 50px rgba(21, 8, 44, 0.2);
+  animation: headerIn 700ms cubic-bezier(0.21, 0.92, 0.33, 1) both;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4.3vw, 3.1rem);
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.events {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.event-card {
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff, #fcf8ff);
+  box-shadow: var(--shadow);
+  padding: 18px;
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  border-color: #c6a5ff;
+  box-shadow: 0 24px 46px rgba(18, 8, 40, 0.18);
+}
+
+.event-title-row {
+  border-bottom: 1px solid #e7daff;
+  padding: 4px 2px 14px;
+  margin-bottom: 14px;
+}
+
+.event-title {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.1vw, 1.72rem);
+  font-weight: 600;
+  color: #0c0c0c;
+}
+
+.event-body {
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  gap: 16px;
+}
+
+.event-notes {
+  border-radius: 18px;
+  border: 1px solid rgba(199, 172, 255, 0.24);
+  background: linear-gradient(150deg, #18062a 0%, #31135c 58%, #4a1a90 100%);
+  padding: 14px;
+}
+
+.notes-title {
+  color: #f3e8ff;
+  font-size: 0.79rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.notes-space {
+  min-height: 130px;
+  border-radius: 14px;
+  border: 1px dashed rgba(236, 221, 255, 0.72);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.gallery {
+  border-radius: 18px;
+  border: 1px solid #e2d3ff;
+  background: var(--surface-soft);
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 14px;
+}
+
+.photo {
+  margin: 0;
+  border-radius: 16px;
+  border: 1px solid #d4baff;
+  background: var(--surface);
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(38, 11, 79, 0.12);
+  transition: transform 240ms ease, box-shadow 240ms ease;
+}
+
+.photo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 26px rgba(26, 10, 56, 0.22);
+}
+
+.photo img {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.01);
+  transition: transform 280ms ease;
+}
+
+.photo:hover img {
+  transform: scale(1.06);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 620ms ease, transform 620ms cubic-bezier(0.22, 0.9, 0.3, 1);
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 860px) {
+  body {
+    padding: 24px 14px 56px;
+  }
+
+  .page-header {
+    border-radius: 18px;
+    padding: 20px;
+  }
+
+  .event-card {
+    border-radius: 18px;
+    padding: 14px;
+  }
+
+  .event-body {
+    grid-template-columns: 1fr;
+  }
+
+  .notes-space {
+    min-height: 92px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+@keyframes headerIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

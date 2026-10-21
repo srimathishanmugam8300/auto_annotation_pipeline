@@ -1,0 +1,19 @@
+{
+  "input_file": "cat.wav",
+  "audio_duration": 0.88,
+  "dominant_sounds": [
+    {
+      "label": "Whimper (dog)",
+      "total_duration": 0.88,
+      "coverage": 100.0
+    }
+  ],
+  "sound_events": [
+    {
+      "label": "Whimper (dog)",
+      "start": 0.0,
+      "end": 0.88,
+      "confidence": 0.92
+    }
+  ]
+}

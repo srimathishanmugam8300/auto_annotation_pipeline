@@ -1,0 +1,32 @@
+{
+  "start_time": "2026-01-12T12:26:51.440551",
+  "input_folder": "data\\images",
+  "output_folder": "sign_output",
+  "n_images": 413,
+  "n_valid_images": 413,
+  "embedding_dim": 262,
+  "n_clusters": 7,
+  "initial_quality": {
+    "silhouette": 0.014929057185539454,
+    "davies_bouldin": 3.884938155935107,
+    "calinski_harabasz": 16.788357627673108
+  },
+  "refinement_iterations": 3,
+  "refined_quality": {
+    "mean_intra_cluster_distance": 85.42498438777626,
+    "std_intra_cluster_distance": 12.379747080840461,
+    "mean_inter_cluster_distance": 73.53320297856376,
+    "std_inter_cluster_distance": 22.5654424861579,
+    "separation_ratio": 0.8607927002335615
+  },
+  "class_mapping": {
+    "0": "class_1",
+    "1": "class_2",
+    "2": "class_3",
+    "3": "class_4",
+    "4": "class_5",
+    "5": "class_6",
+    "6": "class_7"
+  },
+  "end_time": "2026-01-12T12:27:05.036963"
+}

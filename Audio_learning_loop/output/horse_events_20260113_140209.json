@@ -1,0 +1,19 @@
+{
+  "input_file": "horse.wav",
+  "audio_duration": 2.48,
+  "dominant_sounds": [
+    {
+      "label": "\"Livestock",
+      "total_duration": 0.96,
+      "coverage": 100.0
+    }
+  ],
+  "sound_events": [
+    {
+      "label": "\"Livestock",
+      "start": 0.96,
+      "end": 1.92,
+      "confidence": 1.0
+    }
+  ]
+}

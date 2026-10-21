@@ -1,0 +1,74 @@
+﻿[
+    {
+        "name":  "Event - Anvaya Summit",
+        "images":  [
+                       "/assets/events/Event_-_Anvaya_Summit/IMG-20260123-WA0036.jpg",
+                       "/assets/events/Event_-_Anvaya_Summit/IMG-20260123-WA0103.jpg",
+                       "/assets/events/Event_-_Anvaya_Summit/IMG-20260123-WA0135.jpg",
+                       "/assets/events/Event_-_Anvaya_Summit/IMG-20260123-WA0142.jpg"
+                   ]
+    },
+    {
+        "name":  "Event - GCT",
+        "images":  [
+                       "/assets/events/Event_-_GCT/20260220_153417.jpg",
+                       "/assets/events/Event_-_GCT/20260220_170129.jpg",
+                       "/assets/events/Event_-_GCT/WhatsApp Image 2026-04-06 at 2.24.30 PM.jpeg",
+                       "/assets/events/Event_-_GCT/WhatsApp Image 2026-04-06 at 2.29.19 PM.jpeg"
+                   ]
+    },
+    {
+        "name":  "Event - GDG Devfest",
+        "images":  [
+                       "/assets/events/Event_-_GDG_Devfest/20251108_103240.jpg",
+                       "/assets/events/Event_-_GDG_Devfest/IMG-20251108-WA0141.jpg",
+                       "/assets/events/Event_-_GDG_Devfest/IMG-20251108-WA0149.jpg",
+                       "/assets/events/Event_-_GDG_Devfest/IMG-20251108-WA0183.jpg",
+                       "/assets/events/Event_-_GDG_Devfest/IMG-20251108-WA0249.jpg",
+                       "/assets/events/Event_-_GDG_Devfest/IMG-20251108-WA0269.jpg"
+                   ]
+    },
+    {
+        "name":  "Event - GDG Pre devfest",
+        "images":  [
+                       "/assets/events/Event_-_GDG_Pre_devfest/WhatsApp Image 2026-04-06 at 2.18.09 PM.jpeg",
+                       "/assets/events/Event_-_GDG_Pre_devfest/WhatsApp Image 2026-04-06 at 2.19.26 PM.jpeg"
+                   ]
+    },
+    {
+        "name":  "Event - GEN AI hackathon",
+        "images":  [
+                       "/assets/events/Event_-_GEN_AI_hackathon/20251220_165911.jpg",
+                       "/assets/events/Event_-_GEN_AI_hackathon/20251220_173356.jpg",
+                       "/assets/events/Event_-_GEN_AI_hackathon/IMG-20251220-WA0007.jpg",
+                       "/assets/events/Event_-_GEN_AI_hackathon/IMG-20251220-WA0009.jpg"
+                   ]
+    },
+    {
+        "name":  "Event - Sarvam Hackathon",
+        "images":  [
+                       "/assets/events/Event_-_Sarvam_Hackathon/WhatsApp Image 2026-04-06 at 2.19.10 PM.jpeg",
+                       "/assets/events/Event_-_Sarvam_Hackathon/WhatsApp Image 2026-04-06 at 2.21.51 PM (1).jpeg",
+                       "/assets/events/Event_-_Sarvam_Hackathon/WhatsApp Image 2026-04-06 at 2.21.51 PM.jpeg"
+                   ]
+    },
+    {
+        "name":  "Event - SREC Utsava",
+        "images":  [
+                       "/assets/events/Event_-_SREC_Utsava/IMG-20260131-WA0024.jpg",
+                       "/assets/events/Event_-_SREC_Utsava/IMG-20260131-WA0118.jpg",
+                       "/assets/events/Event_-_SREC_Utsava/WhatsApp Image 2026-04-06 at 2.30.01 PM.jpeg"
+                   ]
+    },
+    {
+        "name":  "Event - Summit",
+        "images":  [
+                       "/assets/events/Event_-_Summit/20251010_160941.jpg",
+                       "/assets/events/Event_-_Summit/IMG-20251010-WA0018.jpg",
+                       "/assets/events/Event_-_Summit/IMG-20251010-WA0026.jpg",
+                       "/assets/events/Event_-_Summit/IMG-20251010-WA0029.jpg",
+                       "/assets/events/Event_-_Summit/IMG-20251010-WA0063.jpg",
+                       "/assets/events/Event_-_Summit/IMG-20251010-WA0067.jpg"
+                   ]
+    }
+]

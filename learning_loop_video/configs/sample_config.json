@@ -1,0 +1,36 @@
+{
+  "video_path": "outputs/example/input/sample.mp4",
+  "labels": ["helmet", "no_helmet", "person"],
+  "sampling": {
+    "mode": "fps",
+    "value": 2
+  },
+  "time_range": {
+    "start_sec": 0,
+    "end_sec": 30
+  },
+  "processing_mode": "hybrid",
+  "annotation_format": "coco",
+  "segmentation": {
+    "enabled": true,
+    "model": "sam_vit_b",
+    "mask_type": "polygon"
+  },
+  "detection": {
+    "model": "yolov8",
+    "confidence_threshold": 0.4,
+    "iou_threshold": 0.5
+  },
+  "tracking": {
+    "enabled": true,
+    "algorithm": "bytetrack",
+    "persist_ids": true
+  },
+  "output": {
+    "save_frames": true,
+    "save_labels": true,
+    "save_video": true,
+    "video_codec": "h264"
+  }
+}
+
